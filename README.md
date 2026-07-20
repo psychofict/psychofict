@@ -33,22 +33,22 @@
 
 <!-- ====================== INTRO ====================== -->
 
-I'm an **AI/ML Engineer** at [Gractor](https://ebstar.co), where I'm the primary engineer across **four live government platforms** and have solo-owned **~130K lines** of production code. I build production **LLM systems** end to end: RAG pipelines, tool-calling agents, and the evaluation harnesses that keep them honest.
+**I build AI systems that hold up in production** — the unglamorous part where a demo becomes something a city actually runs on. I'm the primary engineer on **four live government platforms** at [Gractor](https://ebstar.co), a Series-A smart-city AI company: RAG over **2.7M+ sensor records at 98.8% accuracy**, tool-calling agents, and the evaluation harnesses that keep them honest.
 
 Earlier, during my **MSc in AI at Korea University's [Pattern Recognition & Machine Learning Lab](https://xai.korea.ac.kr/)** (advised by [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow), I published two first-author papers on **semi-supervised semantic segmentation**, ranked **#2 and #3 globally** on the Cityscapes and Pascal VOC leaderboards, work I now continue independently with **PixCon**.
 
-My focus: shipping AI that holds up at scale, reliable retrieval, calibrated uncertainty, and closing the gap between what works in a paper and what works in production.
+My focus: reliable retrieval, calibrated uncertainty, and closing the gap between a number that works in a paper and a system real users depend on.
 
 <!-- ====================== PUBLICATIONS ====================== -->
 ## &#128300; Publications
 
 | Year | Paper | Venue | Rank | Links |
 |:----:|-------|:-----:|:----:|-------|
-| 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Preprint&nbsp;(under&nbsp;review) | **#1** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
+| 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Preprint&nbsp;(under&nbsp;review) | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
 | 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;(under&nbsp;review) | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
 | 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IJCNN&nbsp;(IEEE) | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
 
-> With ResNet-101 backbones, **CW-BASS** and **FARCLUSS** were among the state of the art in semi-supervised segmentation in 2025, ranking **#3 and #2 globally** on Pascal VOC / Cityscapes (77.15% and 78.8% / 78.2% mIoU). **PixCon** (independent, 2026) carries the line onto foundation-model features (DINOv2-scale), taking the **#1** spot in semi-supervised segmentation alongside UniMatch V2. All three attack the same problem, dense prediction from very few labels: confidence-weighted boundaries (CW-BASS), fuzzy pseudo-labeling with contrastive rebalancing (FARCLUSS), and a clean-positive pixel memory bank (PixCon).
+> With ResNet-101 backbones, **CW-BASS** and **FARCLUSS** were among the state of the art in semi-supervised segmentation in 2025, ranking **#3 and #2 globally** on Pascal VOC / Cityscapes (77.15% and 78.8% / 78.2% mIoU). **PixCon** (independent, 2026) carries the line onto foundation-model features (DINOv2-scale), reaching **#2** in semi-supervised segmentation, matching a strong UniMatch V2 baseline at lower cost. All three attack the same problem, dense prediction from very few labels: confidence-weighted boundaries (CW-BASS), fuzzy pseudo-labeling with contrastive rebalancing (FARCLUSS), and a clean-positive pixel memory bank (PixCon).
 
 <!-- ====================== OPEN SOURCE ====================== -->
 ## &#128736;&#65039; Open Source
@@ -211,7 +211,7 @@ My focus: shipping AI that holds up at scale, reliable retrieval, calibrated unc
 ## &#128188; Experience
 
 **AI/ML Engineer** · Gractor Co., Ltd. · *Sept 2025 – present · Seoul*
-<br>Primary engineer across four live government platforms; solo-owned ~130K LOC. Built a RAG system over 2.7M+ IoT records at 98.8% eval accuracy, a tool-calling agent at 100% (96/96) rebuilt to ~12x faster startup, a multi-provider LLM router with circuit-breaker failover, and YOLOv5 + OpenVINO edge inference on government smart poles.
+<br>Primary engineer across four live government platforms. Built a RAG system over 2.7M+ IoT records at 98.8% eval accuracy, rebuilt a production agent from 94.9% → 100% (96/96) with ~30% less code and ~12x faster startup, shipped a multi-provider LLM router with circuit-breaker failover, and deployed YOLOv5 + OpenVINO edge inference on government smart poles.
 
 **Research Engineer (MSc)** · [Korea University](https://xai.korea.ac.kr/), PRML Lab · *Sept 2023 – Feb 2026 · Seoul*
 <br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). First-author segmentation papers (#2 & #3 globally); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent filed (autonomous-driving perception).
