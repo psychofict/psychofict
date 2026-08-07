@@ -25,7 +25,7 @@ I'm the primary engineer on **four live government platforms** at
 [Gractor](https://www.gractor.com), a smart-city AI company — RAG over **2.7M+ sensor
 records at 98.8% accuracy**, tool-calling agents, and the evaluation harnesses that keep
 them honest. Before that, my MSc at Korea University's
-[Pattern Recognition & Machine Learning Lab](https://xai.korea.ac.kr/)
+[Pattern Recognition & Machine Learning Lab](http://xai.korea.ac.kr/)
 ([Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow)
 produced two first-author papers on semi-supervised semantic segmentation, ranked
 **#2 and #3 globally** on the Pascal VOC and Cityscapes leaderboards — work I now
@@ -102,7 +102,7 @@ with ~30% less code and ~12x faster startup, shipped a multi-provider LLM router
 circuit-breaker failover, and deployed YOLOv5 + OpenVINO edge inference on government
 smart poles.
 
-**Research Engineer (MSc)** · [Korea University, PRML Lab](https://xai.korea.ac.kr/) · *Sept 2023 – Feb 2026 · Seoul*
+**Research Engineer (MSc)** · [Korea University, PRML Lab](http://xai.korea.ac.kr/) · *Sept 2023 – Feb 2026 · Seoul*
 <br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). First-author segmentation papers
 (#2 & #3 globally); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent
 filed (autonomous-driving perception).
