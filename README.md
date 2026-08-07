@@ -34,9 +34,7 @@ real users depend on.
 
 [Portfolio](https://psychofict.github.io) · [Google Scholar](https://scholar.google.com/citations?user=W818y-gAAAAJ&hl=en) · [arXiv](https://arxiv.org/search/cs?searchtype=author&query=Tarubinga,+E) · [LinkedIn](https://www.linkedin.com/in/ebstar/) · [ebstar.co](https://ebstar.co) · [ebstarmusic@gmail.com](mailto:ebstarmusic@gmail.com)
 
-|  |  |
-|:--|:--|
-| **Stack** | Python · PyTorch · CUDA · TypeScript · Next.js · FastAPI · PostgreSQL · Docker · Kubernetes · AWS |
+<sub><b>STACK</b> — Python · PyTorch · CUDA · TypeScript · Next.js · FastAPI · PostgreSQL · Docker · Kubernetes · AWS</sub>
 
 <br>
 
@@ -118,12 +116,12 @@ Advisor: [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-l
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://grs-iota.vercel.app/api?username=psychofict&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&hide_border=true&title_color=5EA1FF&icon_color=5EA1FF&text_color=9ca3af&bg_color=00000000&cb=3" />
-    <img height="165" src="https://grs-iota.vercel.app/api?username=psychofict&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&hide_border=true&title_color=0F62FE&icon_color=0F62FE&text_color=6b7280&bg_color=00000000&cb=3" alt="GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://grs-iota.vercel.app/api?username=psychofict&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&hide_border=true&title_color=5EA1FF&icon_color=5EA1FF&text_color=9ca3af&bg_color=00000000&cb=4" />
+    <img height="165" src="https://grs-iota.vercel.app/api?username=psychofict&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&hide_border=true&title_color=0F62FE&icon_color=0F62FE&text_color=6b7280&bg_color=00000000&cb=4" alt="GitHub stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://grs-iota.vercel.app/api/top-langs/?username=psychofict&layout=compact&langs_count=8&hide_border=true&title_color=5EA1FF&text_color=9ca3af&bg_color=00000000&cb=3" />
-    <img height="165" src="https://grs-iota.vercel.app/api/top-langs/?username=psychofict&layout=compact&langs_count=8&hide_border=true&title_color=0F62FE&text_color=6b7280&bg_color=00000000&cb=3" alt="Top languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://grs-iota.vercel.app/api/top-langs/?username=psychofict&layout=compact&langs_count=8&hide_border=true&title_color=5EA1FF&text_color=9ca3af&bg_color=00000000&cb=4" />
+    <img height="165" src="https://grs-iota.vercel.app/api/top-langs/?username=psychofict&layout=compact&langs_count=8&hide_border=true&title_color=0F62FE&text_color=6b7280&bg_color=00000000&cb=4" alt="Top languages" />
   </picture>
 </p>
 
