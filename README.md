@@ -19,18 +19,20 @@
   <img width="100%" src="https://raw.githubusercontent.com/psychofict/psychofict/main/assets/header-light.svg" alt="Ebenezer Tarubinga — Production LLM Systems · Applied Computer Vision · Semantic Segmentation" />
 </picture>
 
-**I build AI systems that hold up in production** — the unglamorous part where a demo
-becomes something a city actually runs on. I'm the primary engineer on **four live
-government platforms** at [Gractor](https://www.gractor.com), a smart-city AI company:
-RAG over **2.7M+ sensor records at 98.8% accuracy**, tool-calling agents, and the
-evaluation harnesses that keep them honest. During my **MSc in AI at Korea University's
-[Pattern Recognition & Machine Learning Lab](https://xai.korea.ac.kr/)** (advised by
-[Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow)
-I published two first-author papers on semi-supervised semantic segmentation, ranked
+### I build AI systems that hold up in production — the unglamorous part where a demo becomes something a city actually runs on.
+
+I'm the primary engineer on **four live government platforms** at
+[Gractor](https://www.gractor.com), a smart-city AI company — RAG over **2.7M+ sensor
+records at 98.8% accuracy**, tool-calling agents, and the evaluation harnesses that keep
+them honest. Before that, my MSc at Korea University's
+[Pattern Recognition & Machine Learning Lab](https://xai.korea.ac.kr/)
+([Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow)
+produced two first-author papers on semi-supervised semantic segmentation, ranked
 **#2 and #3 globally** on the Pascal VOC and Cityscapes leaderboards — work I now
-continue independently with **PixCon**. My focus: reliable retrieval, calibrated
-uncertainty, and closing the gap between a number that works in a paper and a system
-real users depend on.
+continue independently with **PixCon**.
+
+My focus: reliable retrieval, calibrated uncertainty, and closing the gap between a
+number that works in a paper and a system real users depend on.
 
 [Portfolio](https://psychofict.github.io) · [Google Scholar](https://scholar.google.com/citations?user=W818y-gAAAAJ&hl=en) · [arXiv](https://arxiv.org/search/cs?searchtype=author&query=Tarubinga,+E) · [LinkedIn](https://www.linkedin.com/in/ebstar/) · [ebstar.co](https://ebstar.co) · [ebstarmusic@gmail.com](mailto:ebstarmusic@gmail.com)
 
@@ -57,12 +59,21 @@ problem — dense prediction from very few labels.</sub>
 
 ### 02 · SELECTED SOFTWARE
 
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| [**hwpkit**](https://github.com/psychofict/hwpkit) | Read, fill & edit Korean HWP (Hancom Office) docs in Python — text extraction for LLM/RAG, programmatic form-filling, corruption-free binary rewrite | Python · OLE/CFB |
-| [**claude_ai_usage_widget**](https://github.com/StaticB1/claude_ai_usage_widget) | Live system-tray widget for Claude Code plan limits (5h/7d) + local token & cost analytics per project, model, and tool | Python · GTK |
-| [**claudehop**](https://github.com/psychofict/claudehop) | Hop Claude Code between multiple Claude accounts without logging in again — one file, stdlib only, Linux & macOS | Python |
-| [**tzohar-engine**](https://github.com/psychofict/tzohar-engine) | Framework for personal & academic websites — typed section blocks, ORCID & BibTeX import, built with Next.js | TypeScript · Next.js |
+[**hwpkit**](https://github.com/psychofict/hwpkit) — read, fill & edit Korean HWP
+(Hancom Office) documents in Python: text extraction for LLM/RAG, programmatic
+form-filling, corruption-free binary rewrite. <sub>Python · OLE/CFB</sub>
+
+[**claude_ai_usage_widget**](https://github.com/StaticB1/claude_ai_usage_widget) — live
+system-tray widget for Claude Code plan limits (5h/7d) plus local token & cost analytics
+per project, model, and tool. <sub>Python · GTK</sub>
+
+[**claudehop**](https://github.com/psychofict/claudehop) — hop Claude Code between
+multiple Claude accounts without logging in again; one file, stdlib only, Linux & macOS.
+<sub>Python</sub>
+
+[**tzohar-engine**](https://github.com/psychofict/tzohar-engine) — a framework for
+personal & academic websites: typed section blocks, ORCID & BibTeX import, built with
+Next.js. <sub>TypeScript · Next.js</sub>
 
 <br>
 
@@ -137,8 +148,6 @@ Advisor: [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-l
 
 ---
 
-<p align="center">
-  <a href="mailto:ebstarmusic@gmail.com"><b>Let's build something that ships.</b></a>
-</p>
+<h3 align="center"><a href="mailto:ebstarmusic@gmail.com">Let's build something that ships.</a></h3>
 
 <p align="center"><sub>Design © Ebenezer Tarubinga, licensed <a href="./LICENSE">CC BY 4.0</a> — reuse with attribution.</sub></p>
