@@ -4,8 +4,9 @@
   Reuse is welcome — please keep visible attribution to Ebenezer Tarubinga.
 
   FACTS THAT AGE — verify before editing (last swept 2026-08-07):
-  · Paper statuses: PixCon "preprint, under review" and FARCLUSS "Neural Networks, under
-    review" — check arXiv / the journal before touching venue text.
+  · Paper statuses: PixCon "preprint, under review"; FARCLUSS accepted in Neural
+    Networks (2026-08-11), DOI not yet issued — check arXiv / the journal before
+    touching venue text.
   · Leaderboard ranks (#2 / #3, Cityscapes / Pascal VOC) — verify on the Papers with Code
     semi-supervised semantic segmentation leaderboards.
   · "four live government platforms" at Gractor — reconfirm the count before changing it.
@@ -57,10 +58,14 @@ My focus: reliable retrieval, calibrated uncertainty, and closing the gap betwee
 | Year | Paper | Venue | Rank | Links |
 |:----:|-------|:-----:|:----:|-------|
 | 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Preprint&nbsp;(under&nbsp;review) | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
-| 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;(under&nbsp;review) | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
-| 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IJCNN&nbsp;(IEEE) | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
+| 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;2026&nbsp;<sup>\*</sup><br/><sub>Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
+| 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IEEE&nbsp;IJCNN&nbsp;2025&nbsp;<sup>†</sup><br/><sub>CORE&nbsp;A&nbsp;(2020)</sub> | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
 
 > With ResNet-101 backbones, **CW-BASS** and **FARCLUSS** were among the state of the art in semi-supervised segmentation in 2025, ranking **#3 and #2 globally** on Pascal VOC / Cityscapes (77.15% and 78.8% / 78.2% mIoU). **PixCon** (independent, 2026) carries the line onto foundation-model features (DINOv2-scale), reaching **#2** in semi-supervised segmentation, matching a strong UniMatch V2 baseline at lower cost. All three attack the same problem, dense prediction from very few labels: confidence-weighted boundaries (CW-BASS), fuzzy pseudo-labeling with contrastive rebalancing (FARCLUSS), and a clean-positive pixel memory bank (PixCon).
+
+<sub>\* Neural Networks (Elsevier) is the premier neural networks journal — Q1 and Top 10% by impact factor (JCR), and the archival journal of the world's three oldest neural-network societies: the International (INNS), European (ENNS) and Japanese (JNNS) Neural Network Societies.</sub>
+
+<sub>† IEEE IJCNN is the premier international conference in neural networks, run by INNS with the IEEE Computational Intelligence Society; CORE A (2020).</sub>
 
 <!-- ====================== OPEN SOURCE ====================== -->
 ## &#128736;&#65039; Open Source
