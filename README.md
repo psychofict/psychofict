@@ -61,7 +61,7 @@
 
 During my **MSc in AI at Korea University's [Pattern Recognition & Machine Learning Lab](http://xai.korea.ac.kr/)** (advised by [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow) I published two first-author papers on **semi-supervised semantic segmentation**. I now continue that line independently &mdash; **four papers**, the two newest on foundation-model backbones.
 
-My research asks one question: **with almost no labels, which predictions can you trust, and how much?** Lately that means calibration, confidence saturation, and reliability-gated selection.
+My research sits where **learning from limited labels** meets **dense prediction**, and it moves across the stack: loss design and boundary-aware regularization, fuzzy and soft pseudo-labels, uncertainty quantification and model calibration, contrastive representation learning, long-tailed class rebalancing, theoretical analysis of estimators and gradients, and the multi-seed evaluation methodology that keeps such results honest — on CNN and foundation-model backbones alike.
 
 <!-- ====================== PUBLICATIONS ====================== -->
 ## &#128300; Publications
@@ -73,7 +73,19 @@ My research asks one question: **with almost no labels, which predictions can yo
 | 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;2026&nbsp;<sup>\*</sup><br/><sub>Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
 | 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IEEE&nbsp;IJCNN&nbsp;2025&nbsp;<sup>†</sup><br/><sub>CORE&nbsp;A&nbsp;(2020)</sub> | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
 
-> Four first-author papers on one problem: **dense prediction from very few labels.** CW-BASS and FARCLUSS were **#3** and **#2** on the Papers with Code leaderboards at release (2025, ResNet era). PixCon and CW-BASS&nbsp;v2 carry the line onto DINOv2 features.
+> Four papers, four different mechanisms: boundary-aware confidence weighting with dynamic thresholds (**CW-BASS**); fuzzy top-K pseudo-labels, entropy-based uncertainty weighting and adaptive class rebalancing (**FARCLUSS**); a contamination-free pixel memory bank with a supervised-InfoNCE gradient analysis (**PixCon**); held-out calibration and a reliability-gated selection rule (**CW-BASS&nbsp;v2**). The first two were **#3** and **#2** on the Papers with Code leaderboards at release (2025, ResNet era); the last two move the line onto DINOv2 backbones.
+
+### Research areas
+
+`Semi-supervised learning` · `Semantic segmentation` · `Pseudo-labeling & consistency regularization` · `Model calibration & uncertainty quantification` · `Contrastive & metric representation learning` · `Class imbalance / long-tailed learning` · `Boundary & edge-aware learning` · `Fuzzy logic & soft labels` · `Foundation models & transfer (DINOv2, ViT vs CNN)` · `Selective prediction & reliability estimation` · `Learning-theoretic analysis (estimators, bounds, gradients)` · `Empirical evaluation methodology (multi-seed, variance, ablation protocol)`
+
+<details><summary>Formal classification (ACM CCS · IEEE EDICS)</summary>
+
+**ACM CCS** — I.4.6 Segmentation · I.4.6.d Pixel classification · I.2.10 Vision and Scene Understanding · I.2.6.g Machine learning · I.2.6.c Connectionism and neural nets · I.5.2.a Classifier design and evaluation · D.2.4.h Statistical methods
+
+**IEEE EDICS** — Computer Vision → Segmentation, grouping and shape analysis · Computer Vision → Self-, semi-, meta- and unsupervised learning
+
+</details>
 
 <sub>‡ Ranks are at release, not live standings — Papers with Code closed in July 2025. CW-BASS v2's 2nd is among DINOv2-backbone methods, behind UniMatch V2-B.</sub>
 
