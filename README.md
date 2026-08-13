@@ -3,12 +3,21 @@
   Design & layout licensed under CC BY 4.0 (see LICENSE).
   Reuse is welcome — please keep visible attribution to Ebenezer Tarubinga.
 
-  FACTS THAT AGE — verify before editing (last swept 2026-08-07):
-  · Paper statuses: PixCon "preprint, under review"; FARCLUSS accepted in Neural
-    Networks (2026-08-11), DOI not yet issued — check arXiv / the journal before
-    touching venue text.
-  · Leaderboard ranks (#2 / #3, Cityscapes / Pascal VOC) — verify on the Papers with Code
-    semi-supervised semantic segmentation leaderboards.
+  FACTS THAT AGE — verify before editing (last swept 2026-08-13):
+  · Paper statuses: CW-BASS v2 submitted to arXiv 2026-08-13 (awaiting ID) and under
+    review at IEEE TPAMI; PixCon is a PREPRINT — WACV 2027 R2 registration is Aug 21,
+    paper Aug 28, so it is NOT under review until then (it wrongly said "under review"
+    before 2026-08-13); FARCLUSS accepted in Neural Networks (2026-08-11), publisher
+    DOI not yet issued — check arXiv / the journal before touching venue text.
+  · Leaderboard ranks: Papers with Code SHUT DOWN 24 Jul 2025 and now redirects to
+    Hugging Face — the #3 / #2 ranks CANNOT be re-verified and are therefore written
+    as historical ("at release, 2025, ResNet-50/101 era"). Do not restate them as
+    current. CW-BASS v2's "second in the DINOv2 landscape" is checkable against
+    tab:landscape / tab:sota_cs in its own paper (silver on every column, behind
+    UniMatch V2-B); the paper deliberately claims no peak accuracy, so do not
+    upgrade this to a SOTA claim.
+  · CW-BASS v2 arXiv link is absent until the ID is announced — add it with
+    CW-BASS-v2/scripts/backfill_arxiv_id.py, do not hand-write it.
   · "four live government platforms" at Gractor — reconfirm the count before changing it.
   · Claude Code usage badges — NEVER edit the numbers by hand; regenerate with
     scripts/refresh-stats.py (reads ~/.config/claude-token-tracker/history.db).
@@ -25,7 +34,7 @@
 <!-- ====================== TYPING SUBTITLE ====================== -->
 <p align="center">
   <a href="https://psychofict.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=6AA6FF&center=true&vCenter=true&width=760&lines=AI%2FML+Engineer+%40+Gractor;Production+LLM+systems%3A+RAG+%C2%B7+agents+%C2%B7+evaluation;First-author+segmentation+researcher+(%232+%26+%233+globally);Research+to+production%2C+at+government+scale" alt="typing subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=6AA6FF&center=true&vCenter=true&width=760&lines=AI%2FML+Engineer+%40+Gractor;Production+LLM+systems%3A+RAG+%C2%B7+agents+%C2%B7+evaluation;Four+first-author+papers+in+semi-supervised+segmentation;Research+to+production%2C+at+government+scale" alt="typing subtitle" />
   </a>
 </p>
 
@@ -49,20 +58,23 @@
 
 **I build AI systems that hold up in production** — the unglamorous part where a demo becomes something a city actually runs on. I'm the primary engineer on **four live government platforms** at [Gractor](https://ebstar.co), a smart-city AI company: RAG over **2.7M+ sensor records at 98.8% accuracy**, tool-calling agents, and the evaluation harnesses that keep them honest.
 
-Earlier, during my **MSc in AI at Korea University's [Pattern Recognition & Machine Learning Lab](http://xai.korea.ac.kr/)** (advised by [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow), I published two first-author papers on **semi-supervised semantic segmentation**, ranked **#2 and #3 globally** on the Cityscapes and Pascal VOC leaderboards, work I now continue independently with **PixCon**.
+Earlier, during my **MSc in AI at Korea University's [Pattern Recognition & Machine Learning Lab](http://xai.korea.ac.kr/)** (advised by [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow), I published two first-author papers on **semi-supervised semantic segmentation** &mdash; **#3 and #2** on the Papers with Code leaderboards at release, in the ResNet-50/101 era. I now continue that line independently: **four first-author papers**, the two newest on foundation-model backbones.
 
-My focus: reliable retrieval, calibrated uncertainty, and closing the gap between a number that works in a paper and a system real users depend on.
+My research asks one question in four ways: **when you have almost no labels, which predictions can you trust, and how much?** That runs from confidence-weighted boundaries and fuzzy pseudo-labels to contrastive pixel banks and, most recently, *measuring* whether a teacher's confident set deserves the confidence it claims &mdash; calibration, confidence saturation, and reliability-gated selection. The same instinct drives my production work: reliable retrieval, calibrated uncertainty, and closing the gap between a number that works in a paper and a system real users depend on.
 
 <!-- ====================== PUBLICATIONS ====================== -->
 ## &#128300; Publications
 
-| Year | Paper | Venue | Rank | Links |
+| Year | Paper | Venue | Rank&nbsp;<sup>‡</sup> | Links |
 |:----:|-------|:-----:|:----:|-------|
-| 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Preprint&nbsp;(under&nbsp;review) | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
+| 2026 | **CW-BASS&nbsp;v2** &mdash; Saturation-Aware Pseudo-Label Selection under Foundation-Model Teachers | Under&nbsp;review<br/><sub>IEEE&nbsp;TPAMI</sub> | **2nd**<br/><sub>DINOv2</sub> | [Code](https://github.com/psychofict/CW-BASS-v2) · [Project](https://psychofict.github.io/CW-BASS-v2/) · [Models](https://huggingface.co/psychofict) |
+| 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Preprint | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
 | 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;2026&nbsp;<sup>\*</sup><br/><sub>Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
 | 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IEEE&nbsp;IJCNN&nbsp;2025&nbsp;<sup>†</sup><br/><sub>CORE&nbsp;A&nbsp;(2020)</sub> | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
 
-> With ResNet-101 backbones, **CW-BASS** and **FARCLUSS** were among the state of the art in semi-supervised segmentation in 2025, ranking **#3 and #2 globally** on Pascal VOC / Cityscapes (77.15% and 78.8% / 78.2% mIoU). **PixCon** (independent, 2026) carries the line onto foundation-model features (DINOv2-scale), reaching **#2** in semi-supervised segmentation, matching a strong UniMatch V2 baseline at lower cost. All three attack the same problem, dense prediction from very few labels: confidence-weighted boundaries (CW-BASS), fuzzy pseudo-labeling with contrastive rebalancing (FARCLUSS), and a clean-positive pixel memory bank (PixCon).
+> Four first-author papers on one problem: **dense prediction from very few labels.** In the ResNet-50/101 era, **CW-BASS** and **FARCLUSS** ranked **#3 and #2** on the Papers with Code semi-supervised segmentation leaderboards at release (2025) &mdash; 77.15% on Pascal VOC and 78.8% / 78.2% mIoU on Cityscapes. **PixCon** and **CW-BASS&nbsp;v2** (independent, 2026) carry the line onto foundation-model features: PixCon matches the UniMatch&nbsp;V2 operating point with a clean-positive pixel memory bank, and CW-BASS&nbsp;v2 places **second in the DINOv2 landscape** on both Pascal VOC and Cityscapes, behind only UniMatch&nbsp;V2-B. Four angles on the same question &mdash; confidence-weighted boundaries (CW-BASS), fuzzy pseudo-labeling with contrastive rebalancing (FARCLUSS), a clean-positive pixel memory bank (PixCon), and reliability-gated pseudo-label selection (CW-BASS&nbsp;v2).
+
+<sub>‡ Ranks are point-in-time and backbone-scoped, not live standings. CW-BASS, FARCLUSS and PixCon are their positions on the Papers with Code semi-supervised segmentation leaderboards at release (that site closed in July 2025, so they can no longer be re-checked there). CW-BASS v2's "2nd" is its place among DINOv2-backbone methods in its own paper's SOTA tables, behind UniMatch V2-B; the paper claims no peak accuracy.</sub>
 
 <sub>\* Neural Networks (Elsevier) is the premier neural networks journal — Q1 and Top 10% by impact factor (JCR), and the archival journal of the world's three oldest neural-network societies: the International (INNS), European (ENNS) and Japanese (JNNS) Neural Network Societies.</sub>
 
@@ -236,7 +248,7 @@ My focus: reliable retrieval, calibrated uncertainty, and closing the gap betwee
 <br>Primary engineer across four live government platforms. Built a RAG system over 2.7M+ IoT records at 98.8% eval accuracy, rebuilt a production agent from 94.9% → 100% (96/96) with ~30% less code and ~12x faster startup, shipped a multi-provider LLM router with circuit-breaker failover, and deployed YOLOv5 + OpenVINO edge inference on government smart poles.
 
 **Research Engineer (MSc)** · [Korea University](http://xai.korea.ac.kr/), PRML Lab · *Sept 2023 – Feb 2026 · Seoul*
-<br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). First-author segmentation papers (#2 & #3 globally); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent filed (autonomous-driving perception).
+<br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). Two first-author segmentation papers there (#3 and #2 on the Papers with Code leaderboards at release, 2025); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent filed (autonomous-driving perception).
 
 **AI Software Engineer** · GliT (GLITEC), EdTech · *Jan 2019 – Jan 2021 · Zimbabwe*
 <br>Built two offline-first mobile learning products reaching 500+ students and 80,000+ learning sessions.
