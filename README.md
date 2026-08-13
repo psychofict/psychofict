@@ -33,6 +33,7 @@
 <p align="center">
   <a href="https://psychofict.github.io"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
   <a href="https://scholar.google.com/citations?user=W818y-gAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+  <a href="https://orcid.org/0009-0004-7340-1873" rel="me"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID 0009-0004-7340-1873" /></a>
   <a href="https://arxiv.org/search/cs?searchtype=author&query=Tarubinga,+E"><img src="https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" /></a>
   <a href="https://www.linkedin.com/in/ebstar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://ebstar.co"><img src="https://img.shields.io/badge/ebstar.co-1DA1F2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
@@ -66,6 +67,8 @@ My focus: reliable retrieval, calibrated uncertainty, and closing the gap betwee
 <sub>\* Neural Networks (Elsevier) is the premier neural networks journal — Q1 and Top 10% by impact factor (JCR), and the archival journal of the world's three oldest neural-network societies: the International (INNS), European (ENNS) and Japanese (JNNS) Neural Network Societies.</sub>
 
 <sub>† IEEE IJCNN is the premier international conference in neural networks, run by INNS with the IEEE Computational Intelligence Society; CORE A (2020).</sub>
+
+<sub><img src="https://img.shields.io/badge/iD-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID iD" align="top" /> The authoritative, always-current list is my ORCID record: [orcid.org/0009-0004-7340-1873](https://orcid.org/0009-0004-7340-1873)</sub>
 
 <!-- ====================== OPEN SOURCE ====================== -->
 ## &#128736;&#65039; Open Source
