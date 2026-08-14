@@ -57,7 +57,7 @@
 
 <!-- ====================== INTRO ====================== -->
 
-**I build AI systems that hold up in production** — the unglamorous part where a demo becomes something a city actually runs on. I'm the primary engineer on **four live government platforms** at [Gractor](https://ebstar.co), a smart-city AI company: RAG over **2.7M+ sensor records at 98.8% accuracy**, tool-calling agents, and the evaluation harnesses that keep them honest.
+**I build AI systems that hold up in production** — the unglamorous part where a demo becomes something a city actually runs on. I'm an AI/ML engineer at [Gractor](https://www.gractor.com/), a smart-city AI company, working on retrieval, tool-calling agents, on-device vision and the evaluation harnesses that keep them honest.
 
 During my **MSc in AI at Korea University's [Pattern Recognition & Machine Learning Lab](http://xai.korea.ac.kr/)** (advised by [Prof. Seong-Whan Lee](https://pure.korea.ac.kr/en/persons/seong-whan-lee), IEEE Fellow) I published two first-author papers on **semi-supervised semantic segmentation**. I now continue that line independently &mdash; **four papers**, the two newest on foundation-model backbones.
 
@@ -258,12 +258,12 @@ My research sits where **learning from limited labels** meets **dense prediction
 ## &#128188; Experience
 
 **AI/ML Engineer** · Gractor Co., Ltd. · *Sept 2025 – present · Seoul*
-<br>Primary engineer across four live government platforms. Built a RAG system over 2.7M+ IoT records at 98.8% eval accuracy, rebuilt a production agent from 94.9% → 100% (96/96) with ~30% less code and ~12x faster startup, shipped a multi-provider LLM router with circuit-breaker failover, and deployed YOLOv5 + OpenVINO edge inference on government smart poles.
+<br>Retrieval (RAG) and tool-calling agent systems for smart-city platforms, with guardrails at the tool boundary and evaluation harnesses covering adversarial inputs. Also a multi-provider LLM router with circuit-breaker failover, and YOLOv5 + OpenVINO edge inference on municipal camera hardware.
 
 **Research Engineer (MSc)** · [Korea University](http://xai.korea.ac.kr/), PRML Lab · *Sept 2023 – Feb 2026 · Seoul*
 <br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). Two first-author segmentation papers there (#3 and #2 on the Papers with Code leaderboards at release, 2025); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent filed (autonomous-driving perception).
 
-**AI Software Engineer** · GliT (GLITEC), EdTech · *Jan 2019 – Jan 2021 · Zimbabwe*
+**AI Software Engineer** · GliT, EdTech · *Jan 2019 – Jan 2021 · Zimbabwe*
 <br>Built two offline-first mobile learning products reaching 500+ students and 80,000+ learning sessions.
 
 ## &#127891; Education &amp; Awards
