@@ -7,9 +7,9 @@
   · Paper statuses: CW-BASS v2 submitted to arXiv 2026-08-13 (awaiting ID) and under
     review at IEEE TPAMI. PixCon listed as "under review, WACV 2027" ahead of the
     actual submission (author's call, 2026-08-13) — R2 registration Aug 21, paper
-    Aug 28; if that slips, this line is wrong until it lands. FARCLUSS accepted in
-    Neural Networks (2026-08-11), publisher DOI not yet issued — check arXiv / the
-    journal before touching venue text.
+    Aug 28; if that slips, this line is wrong until it lands. FARCLUSS is the version
+    of record: Neural Networks vol. 205 Part B (January 2027 issue), article 109494,
+    doi:10.1016/j.neunet.2026.109494, online 13 Aug 2026.
   · Leaderboard ranks: Papers with Code SHUT DOWN 24 Jul 2025 and now redirects to
     Hugging Face — the #3 / #2 ranks CANNOT be re-verified and are therefore written
     as historical ("at release, 2025, ResNet-50/101 era"). Do not restate them as
@@ -70,7 +70,7 @@ My research sits where **learning from limited labels** meets **dense prediction
 |:----:|-------|:-----:|:----:|-------|
 | 2026 | **CW-BASS&nbsp;v2** &mdash; Saturation-Aware Pseudo-Label Selection under Foundation-Model Teachers | Under&nbsp;review<br/><sub>IEEE&nbsp;TPAMI</sub> | **2nd**<br/><sub>DINOv2</sub> | [arXiv](https://arxiv.org/abs/2608.12773) · [Code](https://github.com/psychofict/CW-BASS-v2) · [Project](https://psychofict.github.io/CW-BASS-v2/) · [Models](https://huggingface.co/psychofict) |
 | 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Under&nbsp;review<br/><sub>WACV&nbsp;2027</sub> | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
-| 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;2026&nbsp;<sup>\*</sup><br/><sub>Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
+| 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;<sup>\*</sup><br/><sub>205&nbsp;·&nbsp;109494&nbsp;·&nbsp;Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [Elsevier](https://doi.org/10.1016/j.neunet.2026.109494) · [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
 | 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IEEE&nbsp;IJCNN&nbsp;2025&nbsp;<sup>†</sup><br/><sub>CORE&nbsp;A&nbsp;(2020)</sub> | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
 
 > Four papers, four different mechanisms: boundary-aware confidence weighting with dynamic thresholds (**CW-BASS**); fuzzy top-K pseudo-labels, entropy-based uncertainty weighting and adaptive class rebalancing (**FARCLUSS**); a contamination-free pixel memory bank with a supervised-InfoNCE gradient analysis (**PixCon**); held-out calibration and a reliability-gated selection rule (**CW-BASS&nbsp;v2**). The first two were **#3** and **#2** on the Papers with Code leaderboards at release (2025, ResNet era); the last two move the line onto DINOv2 backbones.
