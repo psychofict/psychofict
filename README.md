@@ -47,6 +47,7 @@
   <a href="https://arxiv.org/search/cs?searchtype=author&query=Tarubinga,+E"><img src="https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" /></a>
   <a href="https://www.linkedin.com/in/ebstar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://ebstar.co"><img src="https://img.shields.io/badge/ebstar.co-1DA1F2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://ebenworks.co"><img src="https://img.shields.io/badge/Ebenworks-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ebenworks" /></a>
   <a href="mailto:ebstarmusic@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
