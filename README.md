@@ -4,8 +4,8 @@
   Reuse is welcome — please keep visible attribution to Ebenezer Tarubinga.
 
   FACTS THAT AGE — verify before editing (last swept 2026-08-13):
-  · Paper statuses: CW-BASS v2 submitted to arXiv 2026-08-13 (awaiting ID) and under
-    review at IEEE TPAMI. PixCon listed as "under review, WACV 2027" ahead of the
+  · Paper statuses: CW-BASS v2 is arXiv 2608.12773 (posted 2026-08-13), listed as
+    "arXiv preprint · 2026" since 2026-10-10. PixCon listed as "under review, WACV 2027" ahead of the
     actual submission (author's call, 2026-08-13) — R2 registration Aug 21, paper
     Aug 28; if that slips, this line is wrong until it lands. FARCLUSS is the version
     of record: Neural Networks vol. 205 Part B (January 2027 issue), article 109494,
@@ -69,7 +69,7 @@ My research sits where **learning from limited labels** meets **dense prediction
 
 | Year | Paper | Venue | Rank&nbsp;<sup>‡</sup> | Links |
 |:----:|-------|:-----:|:----:|-------|
-| 2026 | **CW-BASS&nbsp;v2** &mdash; Saturation-Aware Pseudo-Label Selection under Foundation-Model Teachers | Under&nbsp;review<br/><sub>IEEE&nbsp;TPAMI</sub> | **2nd**<br/><sub>DINOv2</sub> | [arXiv](https://arxiv.org/abs/2608.12773) · [Code](https://github.com/psychofict/CW-BASS-v2) · [Project](https://psychofict.github.io/CW-BASS-v2/) · [Models](https://huggingface.co/psychofict) |
+| 2026 | **CW-BASS&nbsp;v2** &mdash; Saturation-Aware Pseudo-Label Selection under Foundation-Model Teachers | arXiv&nbsp;preprint<br/><sub>2026</sub> | **2nd**<br/><sub>DINOv2</sub> | [arXiv](https://arxiv.org/abs/2608.12773) · [Code](https://github.com/psychofict/CW-BASS-v2) · [Project](https://psychofict.github.io/CW-BASS-v2/) · [Models](https://huggingface.co/psychofict) |
 | 2026 | **PixCon** &mdash; Clean-Positive Contrastive Learning for Foundation-Model SSSS | Under&nbsp;review<br/><sub>WACV&nbsp;2027</sub> | **#2** | [arXiv](https://arxiv.org/abs/2607.03068) · [Code](https://github.com/psychofict/PixCon) · [Project](https://psychofict.github.io/PixCon/) |
 | 2026 | **FARCLUSS** &mdash; Fuzzy Adaptive Rebalancing & Contrastive Uncertainty Learning for SSSS | Neural&nbsp;Networks&nbsp;<sup>\*</sup><br/><sub>205&nbsp;·&nbsp;109494&nbsp;·&nbsp;Q1&nbsp;·&nbsp;Top&nbsp;10%&nbsp;IF</sub> | **#2** | [Elsevier](https://doi.org/10.1016/j.neunet.2026.109494) · [arXiv](https://arxiv.org/abs/2506.11142) · [Code](https://github.com/psychofict/FARCLUSS) · [Project](https://psychofict.github.io/FARCLUSS/) |
 | 2025 | **CW-BASS** &mdash; Confidence-Weighted Boundary-Aware Learning for SSSS | IEEE&nbsp;IJCNN&nbsp;2025&nbsp;<sup>†</sup><br/><sub>CORE&nbsp;A&nbsp;(2020)</sub> | **#3** | [IEEE](https://ieeexplore.ieee.org/document/11227871/) · [arXiv](https://arxiv.org/abs/2502.15152) · [Code](https://github.com/psychofict/CW-BASS) · [Project](https://psychofict.github.io/CW-BASS/) |
