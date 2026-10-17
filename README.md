@@ -265,7 +265,7 @@ My research sits where **learning from limited labels** meets **dense prediction
 <br>Advised by Prof. Seong-Whan Lee (IEEE Fellow). Two first-author segmentation papers there (#3 and #2 on the Papers with Code leaderboards at release, 2025); ~10K LOC of PyTorch multi-GPU training infrastructure; Korean patent filed (autonomous-driving perception).
 
 **AI Software Engineer** · GliT, EdTech · *Jan 2019 – Jan 2021 · Zimbabwe*
-<br>Built two offline-first mobile learning products reaching 500+ students and 80,000+ learning sessions.
+<br>Delivered 10+ full-cycle product builds end to end, led the startup's technical direction, and ran STEM programmes with 10+ partner schools.
 
 ## &#127891; Education &amp; Awards
 
